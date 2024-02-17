@@ -1,0 +1,10 @@
+
+Mes méthodes se trouvent dans le fichier matrix_generation.py.
+
+Afin de faire des tests unitaires sur ces fonctions,
+- J'ai besoin de bien vérifier les dimensions des matrices générées
+- Pour la fonction qui prend l'entrée utilisateur, j'en simulerais une avec des valeurs prédéfinies
+
+Afin de renforcer le code, je pourrais ajouter des commentaires pour expliquer le fonctionnement de chaque passage de code.
+Et c'est bien la seule chose étant donné que le code est déjà bien structuré et que le type des variables est bien défini.
+
