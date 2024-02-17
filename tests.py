@@ -9,6 +9,9 @@ def test_rounders():
     for test in tests:
         result = tail_rounding(test[0])
         print(test[0],"=",test[1],":",result==test[1])
+        if result!=test[1]:
+            return False
+    return True
 
 def test_rotate_for_max():
     print("Démarrage des tests pour Rotate_for_max")
@@ -16,6 +19,9 @@ def test_rotate_for_max():
     for test in tests:
         result = max_rot(test[0])
         print(test[0],"=",test[1],":",result==test[1])
+        if result!=test[1]:
+            return False
+    return True
 
 def main():
     test_rounders()
