@@ -1,0 +1,8 @@
+Tests :
+Tests simples pour lire_csv_et_afficher_types
+créer un petit  de test pour vérifier si la fonction retourne les types corrects des colonnes
+Tests simples pour exporter_dataframe:
+vérifier que la fonction s'exécute sans erreurs avec un DataFrame valide
+Renforcement :
+Gestion des exceptions : Améliorer la gestion des exceptions pour traiter des cas où l'écriture du fichier peut échouer (par exemple, des problèmes de permissions, espace disque insuffisant, etc.). Cela implique d'attraper les exceptions spécifiques liées à l'écriture de fichiers et de fournir des messages d'erreur utiles à l'utilisateur.
+Gestion des fichiers manquants ou inaccessibles : Avant de tenter de lire le fichier CSV, vérifiez s'il existe et s'il est accessible.
