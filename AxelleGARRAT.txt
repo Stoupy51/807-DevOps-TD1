@@ -1,0 +1,14 @@
+Pour la classe SuperChaine, il faut faire des tests unitaires sur chaque fonction.
+Il faut vérifier que :
+- la fonction majuscule() convertit correctement une chaîne en majuscules,
+- la fonction miniscule() convertit correctement une chaîne en minuscules,
+- la fonction titre() convertit correctement la première lettre de chaque mot en majuscule.
+En ce qui concerne les renforcements, il faudrait vérifier que la chaîne passée en paramètre à l'initialisation
+est correcte, par exemple qu'elle ne contienne pas de caractères spéciaux ou de nombres.
+
+
+Pour la classe SuperDictionnaire, il faut faire les tests suivants:
+-Vérifier si la méthode uniques() renvoie correctement les valeurs uniques présentes dans le dictionnaire.
+-Vérifier si la méthode supprimerDoublons() supprime correctement les doublons du dictionnaire.
+Pour les améliorations, il faudrait que je vérifie que le paramètre passé à la construction est bien un dictionnaire
+et qu'il n'est pas vide.
