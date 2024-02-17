@@ -1,0 +1,9 @@
+Pour les tests unitaires des Transactions, nous pouvons vérifier que la conversion entre euro et dollar est correcte.
+On peut aussi vérifier la façons dont est affiché la transaction est correcte.
+Pour ceux que Compte en Banque on peut vérifier que le solde est correcte après une transaction, que le solde total est le bon,
+que l'affichage de la classe est correcte. En vérifiant le type de retour, le retour lui même et en comparant le résultat.
+Vérifier que le nombre de transaction après une certaine date est le bon.
+
+Renforcement de Code:
+Pour le compte en banque on pourrait vérifier que les transaction ajouter à un compte son bel et bien des transactions.
+Vérifier que le montant de la transaction est bien un nombre et pas une chaine de caractère.
