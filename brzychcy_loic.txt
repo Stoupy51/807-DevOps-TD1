@@ -1,0 +1,22 @@
+Rounders:
+    -Test unitaires:
+        -Testez le bon résultat pour plusieures entrées
+            15->20
+            1234->1000
+            1445->2000
+            14->10
+            99->100
+            10->10
+
+
+Rotate_for_max:
+    -Test unitaires: 
+        -Testez le bon résultats pour plusieures entrées:
+            38458215->85821534
+            195881031->988103115
+            896219342->962193428
+            69418307->94183076
+            
+Renforcement de code:
+    -Vérifier la syntaxe
+    -Fournir une documentation
