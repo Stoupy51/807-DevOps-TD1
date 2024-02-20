@@ -1,5 +1,25 @@
 
 ## Python script that provides functions to generate multiple matrices with different properties.
+"""
+4 tests d'acceptation :
+1.
+	- Given: dimensions = [3,3,3], min_value = 1, max_value = 2, divider = 2.0
+	- When: appelle de fonction generate_matrix(dimensions, min_value, max_value, divider)
+	- Then: la fonction devrait retourner une matrice 3x3x3 avec les éléments entre 0.5 et 1
+2.
+	- Given: dimensions = [2,2], min_value = 0, max_value = 1, divider = 1.0
+	- When: appelle de fonction generate_matrix(dimensions, min_value, max_value, divider)
+	- Then: la fonction devrait retourner une matrice 2x2 avec les éléments entre 0 et 1
+3.
+	- Given: user input "4x4 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16"
+	- When: appelle de fonction userinput_matrix()
+	- Then: la fonction devrait retourner une matrice 4x4 avec les éléments de 1 à 16
+4.
+	- Given: user input "3x3 1 2 3 4 5 6 7 8 9"
+	- When: appelle de fonction userinput_matrix()
+	- Then: la fonction devrait retourner une matrice 3x3 avec les éléments de 1 à 9
+"""
+
 # Imports
 import random
 
